@@ -1,0 +1,28 @@
+# See https://docs.docker.com/engine/reference/builder/#dockerignore-file
+
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+
+# Optional: Vercel folder
+.vercel
+
+# Optional: Unwanted development artifacts
+.DS_Store
+*.pem
+*.p12
+*.pfx
+*.key
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Other
+Dockerfile
+.dockerignore
+README.md
+.gitignore
